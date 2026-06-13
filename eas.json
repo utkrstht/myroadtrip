@@ -1,0 +1,55 @@
+{
+  "cli": {
+    "version": ">= 16.24.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyBTdGGyYt-lFEBh41fIJGv75auClAaPL5g",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT": "https://gdbnd-payment-proxy.vercel.app/api/td-payment",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT_ANDROID": "https://gdbnd-payment-proxy.vercel.app/api/td-payment",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT_FALLBACK": "https://maps-proxy-theta.vercel.app/api/td-payment",
+        "TD_BAMBORA_API_BASE_URL": "https://api.na.bambora.com/v1",
+        "TD_BAMBORA_API_ACCESS_KEY": "19C35AE333344936835Bf8C29Ed543a4",
+        "TD_BAMBORA_MERCHANT_ID": "387197302",
+        "TD_BAMBORA_HASH_KEY": "6EC55FE0-CE36-4804-A347-550AA301",
+        "TD_BAMBORA_HASH_ALGORITHM": "sha1"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyBTdGGyYt-lFEBh41fIJGv75auClAaPL5g",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT": "https://gdbnd-payment-proxy.vercel.app/api/td-payment",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT_ANDROID": "https://gdbnd-payment-proxy.vercel.app/api/td-payment",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT_FALLBACK": "https://maps-proxy-theta.vercel.app/api/td-payment",
+        "TD_BAMBORA_API_BASE_URL": "https://api.na.bambora.com/v1",
+        "TD_BAMBORA_API_ACCESS_KEY": "19C35AE333344936835Bf8C29Ed543a4",
+        "TD_BAMBORA_MERCHANT_ID": "387197302",
+        "TD_BAMBORA_HASH_KEY": "6EC55FE0-CE36-4804-A347-550AA301",
+        "TD_BAMBORA_HASH_ALGORITHM": "sha1"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyBTdGGyYt-lFEBh41fIJGv75auClAaPL5g",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT": "https://gdbnd-payment-proxy.vercel.app/api/td-payment",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT_ANDROID": "https://gdbnd-payment-proxy.vercel.app/api/td-payment",
+        "EXPO_PUBLIC_TD_PAYMENT_ENDPOINT_FALLBACK": "https://maps-proxy-theta.vercel.app/api/td-payment",
+        "TD_BAMBORA_API_BASE_URL": "https://api.na.bambora.com/v1",
+        "TD_BAMBORA_API_ACCESS_KEY": "19C35AE333344936835Bf8C29Ed543a4",
+        "TD_BAMBORA_MERCHANT_ID": "387197302",
+        "TD_BAMBORA_HASH_KEY": "6EC55FE0-CE36-4804-A347-550AA301",
+        "TD_BAMBORA_HASH_ALGORITHM": "sha1"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
+    

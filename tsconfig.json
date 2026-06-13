@@ -1,0 +1,32 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "App.tsx",
+    "App.web.tsx",
+    "index.ts",
+    "index.web.ts",
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "context/**/*.ts",
+    "context/**/*.tsx",
+    "data/**/*.ts",
+    "screens/**/*.ts",
+    "screens/**/*.tsx",
+    "types/**/*.ts",
+    "utils/**/*.ts",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bank-proxy",
+    "maps-proxy",
+    "driver-proxy",
+    "admin-panel"
+  ]
+}
