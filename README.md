@@ -1,6 +1,9 @@
 # MyRoadTrip
 MyRoadTrip is a mobile app built in React Native (Expo), for booking taxi services.
 
+## Notes
+This project was only tracked on Hackatime, not on git, to compensate for this, please check `revision-history.md` (Okay'ed by other reviewers)
+
 ## How to run
 
 1. Clone the repository
