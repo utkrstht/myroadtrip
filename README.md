@@ -52,6 +52,11 @@ All secrets are managed via `.env.local`. See `.env.example` for the full list:
 `EXPO_PUBLIC_TD_PAYMENT_ENDPOINT`: Payment endpoint URL 
 `EXPO_PUBLIC_FIREBASE_*`: Firebase project credentials
 
+## AI usage
+- Login/Signup page UI
+- Partner with us UI
+- Debugging in TD Bank Payment Gateway
+
 ## Prerequisites
 
 - Node 18+
