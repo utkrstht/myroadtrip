@@ -688,6 +688,11 @@ export default function BookingScreen({ navigation, route }: BookingScreenProps)
     try {
       await addDoc(collection(db, 'bookings'), booking);
 
+      const existingBookings = await AsyncStorage.getItem('bookings');
+      const bookings = existingBookings ? JSON.parse(existingBookings) : [];
+      bookings.push(booking);
+      await AsyncStorage.setItem('bookings', JSON.stringify(bookings));
+
       const checkoutUrl = paymentSession?.checkoutUrl ? normalizeCheckoutUrl(paymentSession.checkoutUrl) : '';
 
       const didOpenCheckout = usesTDBankGateway && checkoutUrl

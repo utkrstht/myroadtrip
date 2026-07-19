@@ -190,8 +190,7 @@ export default function ScheduleScreen({ navigation }: ScheduleScreenProps) {
             placeholderTextColor={theme.colors.subText}
           />
         </View>
-
-        {/* Schedule Button */}
+        
         <View style={styles.section}>
           <TouchableOpacity
             style={styles.scheduleButton}

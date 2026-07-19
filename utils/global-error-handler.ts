@@ -1,7 +1,6 @@
 import { Platform } from 'react-native';
 const webTargetOrigins = [
   "http://localhost:8081", // Your parent dev server
-  "https://kiki.dev",       // Your production parent
   "http://localhost:3000", 
   // Add your Expo web preview origin if it's different (e.g., from Metro bundler)
   // Often something like "http://localhost:19006" or "http://localhost:8080"

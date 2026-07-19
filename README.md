@@ -6,24 +6,24 @@ This project was only tracked on Hackatime, not on git, to compensate for this, 
 
 ## How to run
 
-1. Clone the repository
+1. Clone the repository  
    ```bash
    git clone https://github.com/utkrstht/myroadtrip
    cd myroadtrip
    ```
 
-2. Install dependencies
+2. Install dependencies  
    `npm i`
 
-3. Set up environment variables
+3. Set up environment variables  
    `cp .env.example .env.local`  
    Edit `.env.local` and fill in your variables.
 
-4. Create Firebase config
+4. Create Firebase config  
    `cp utils/firebaseConfigExample.ts utils/firebaseConfig.ts`  
    Edit `utils/firebaseConfig.ts` with your Firebase project credentials.
 
-5. Create app config
+5. Create app config  
    `cp app.config.example.js app.config.js`  
    Populate app config with your credentials.
 
@@ -48,12 +48,12 @@ eas build --profile production    # Production/App Store build
 
 All secrets are managed via `.env.local`. See `.env.example` for the full list:
 
-`EXPO_PUBLIC_GOOGLE_MAPS_API_KEY`: Google Maps API 
-`TD_BAMBORA_API_ACCESS_KEY`: TD Bambora access key
-`TD_BAMBORA_MERCHANT_ID`: TD Bambora merchant ID 
-`TD_BAMBORA_HASH_KEY`: TD Bambora hash key
-`EXPO_PUBLIC_TD_PAYMENT_ENDPOINT`: Payment endpoint URL 
-`EXPO_PUBLIC_FIREBASE_*`: Firebase project credentials
+`EXPO_PUBLIC_GOOGLE_MAPS_API_KEY`: Google Maps API  
+`TD_BAMBORA_API_ACCESS_KEY`: TD Bambora access key  
+`TD_BAMBORA_MERCHANT_ID`: TD Bambora merchant ID  
+`TD_BAMBORA_HASH_KEY`: TD Bambora hash key  
+`EXPO_PUBLIC_TD_PAYMENT_ENDPOINT`: Payment endpoint URL   
+`EXPO_PUBLIC_FIREBASE_*`: Firebase project credentials  
 
 ## AI usage
 - Login/Signup page UI

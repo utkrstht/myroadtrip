@@ -5,6 +5,7 @@
     "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
+    "runtimeVersion": "1.0.2",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "scheme": "user-app",
