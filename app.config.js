@@ -53,7 +53,7 @@ module.exports = ({ config }) => {
 
   android: {
     edgeToEdgeEnabled: true,
-    versionCode: 30,
+    versionCode: 31,
     permissions: ["INTERNET"],
     package: "dev.kiki.userapp.dcehkdpp",
     adaptiveIcon: {
