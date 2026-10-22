@@ -49,8 +49,6 @@ maps-proxy/
 booking.html
 
 # sensitive config files (may contain keys)
-app.config.js
 google-services.json
 signature.txt
-utils/firebaseConfig.ts
 
